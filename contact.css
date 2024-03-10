@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 12px;
+  width: 800px;
+  background:Hex D9D9D9 ;
+}
+
+.navigation:hover {
+  font-size: 140%;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+  height: 500px;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the header */
+header {
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: Black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: Hex D9D9D9;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+input[type=submit] {
+  background-color: Hex D9D9D9;
+  padding: 5px;
+  width: 50%;
+  border: 1px solid;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color: #f1f1f1;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Style the footer */
+footer {
+  background-color: grey;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
